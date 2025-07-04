@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: aliceblue;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+  min-height: 100vh;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 20px auto;
+  background: antiquewhite;
+  width: 80%;
+  max-width: 800px;
+}
+
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 3vw;
+  font-weight: 600;
+  color: cadetblue;
+  text-align: center;
+}
+
+.line {
+  border-bottom: 2px solid grey;
+  width: 70%;
+  margin: 0 auto 20px auto;
+}
+
+.note-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addnote {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#title, #deadline {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid cadetblue;
+  width: 200px;
+}
+
+#addbutton, .newlistbtn {
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.list-Area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.task-list {
+  list-style: none;
+  background-color: rgba(189, 187, 184, 0.3);
+  border: 2px double black;
+  border-radius: 10px;
+  padding: 15px;
+  min-width: 200px;
+  min-height: 150px;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.delete-btn {
+  background: grey;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.add {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 2rem;
+  background: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Note Taking App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main">
+    <div class="upper">
+      <h1>My Daily Note Taking App</h1>
+    </div>
+    <div class="line"></div>
+    <div class="note-area">
+      <div class="addnote">
+        <input style="display: none;" type="text" id="title" placeholder="Write your task here..." />
+        <input style="display: none;" type="date" id="deadline" />
+        <button style="display: none;" id="addbutton">Add</button>
+        <button class="newlistbtn" style="display: none;">New List</button>
+      </div>
+      <div class="list-Area"></div>
+      <button class="add">+</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
